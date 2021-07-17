@@ -1,4 +1,4 @@
-export default {
+const styles = {
   root: {
     backgroundColor: "blue",
     height: "100vh",
@@ -17,7 +17,6 @@ export default {
     display: "flex",
     width: "100%",
     justifyContent: "space-between",
-    color: "white",
     alignItems: "center",
     color: "white",
     "& a": {
@@ -33,3 +32,4 @@ export default {
     gridGap: "5%",
   },
 };
+export default styles;

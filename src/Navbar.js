@@ -30,8 +30,7 @@ class Navbar extends Component {
     this.setState({ open: false });
   }
   render() {
-    const { level, changeLevel, handleChange, showingAllColors, classes } =
-      this.props;
+    const { level, changeLevel, showingAllColors, classes } = this.props;
     const { format } = this.state;
     return (
       <header className={classes.Navbar}>

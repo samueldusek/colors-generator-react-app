@@ -23,7 +23,6 @@ const styles = {
     padding: "10px",
     left: "0px",
     bottom: "0px",
-    color: "black",
     textTransform: "uppercase",
     letterSpacing: "1px",
     fontSize: "12px",
