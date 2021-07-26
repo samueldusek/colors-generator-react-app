@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Page.css";
 
 function Page({ children }) {

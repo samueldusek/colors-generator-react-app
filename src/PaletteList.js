@@ -27,6 +27,7 @@ class PaletteList extends Component {
     this.openDialog = this.openDialog.bind(this);
     this.closeDialog = this.closeDialog.bind(this);
     this.handleDelete = this.handleDelete.bind(this);
+    this.goToPalette = this.goToPalette.bind(this);
   }
   openDialog(id) {
     this.setState({ openDeleteDialog: true, deletingId: id });
@@ -42,8 +43,8 @@ class PaletteList extends Component {
     this.closeDialog();
   }
   render() {
-    const { palettes, classes, deletePalette } = this.props;
-    const { openDeleteDialog, deletingId } = this.state;
+    const { palettes, classes } = this.props;
+    const { openDeleteDialog } = this.state;
     return (
       <div className={classes.root}>
         <div className={classes.container}>
@@ -56,7 +57,7 @@ class PaletteList extends Component {
               <CSSTransition key={palette.id} classNames="fade" timeout={500}>
                 <MiniPalette
                   {...palette}
-                  handleClick={() => this.goToPalette(palette.id)}
+                  goToPalette={this.goToPalette}
                   openDialog={this.openDialog}
                   key={palette.id}
                   id={palette.id}
@@ -87,7 +88,7 @@ class PaletteList extends Component {
             <ListItem button onClick={this.closeDialog}>
               <ListItemAvatar>
                 <Avatar style={{ backgroundColor: red[100], color: red[600] }}>
-                  <CheckIcon />
+                  <CloseIcon />
                 </Avatar>
               </ListItemAvatar>
               <ListItemText>Cancel</ListItemText>
