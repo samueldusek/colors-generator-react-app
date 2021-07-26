@@ -1,12 +1,26 @@
 import sizes from "./sizes";
+import bg from "./bg.svg";
 
 const styles = {
+  "@global": {
+    ".fade-exit": {
+      opacity: "1",
+    },
+    ".fade-exit-active": {
+      opacity: "0",
+      transition: "opacity 500ms ease-out",
+    },
+  },
   root: {
     backgroundColor: "blue",
     height: "100vh",
     display: "flex",
     alignItems: "flex-start",
     justifyContent: "center",
+    /* background by SVGBackgrounds.com */
+    backgroundColor: "#061faa",
+    backgroundImage: `url(${bg})`,
+    overflow: "scroll",
   },
   container: {
     width: "50%",
@@ -44,6 +58,9 @@ const styles = {
     [sizes.down("xs")]: {
       gridTemplateColumns: "repeat(1, 100%)",
       gridGap: "1rem",
+    },
+    heading: {
+      fontSize: "2rem",
     },
   },
 };
