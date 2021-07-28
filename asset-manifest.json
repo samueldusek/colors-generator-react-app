@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/colors-generator-react-app/static/css/main.57569d07.chunk.css",
+    "main.js": "/colors-generator-react-app/static/js/main.569add36.chunk.js",
+    "main.js.map": "/colors-generator-react-app/static/js/main.569add36.chunk.js.map",
+    "runtime-main.js": "/colors-generator-react-app/static/js/runtime-main.0ea5df34.js",
+    "runtime-main.js.map": "/colors-generator-react-app/static/js/runtime-main.0ea5df34.js.map",
+    "static/css/2.b1c92442.chunk.css": "/colors-generator-react-app/static/css/2.b1c92442.chunk.css",
+    "static/js/2.a8af1584.chunk.js": "/colors-generator-react-app/static/js/2.a8af1584.chunk.js",
+    "static/js/2.a8af1584.chunk.js.map": "/colors-generator-react-app/static/js/2.a8af1584.chunk.js.map",
+    "static/js/3.f25d4b9e.chunk.js": "/colors-generator-react-app/static/js/3.f25d4b9e.chunk.js",
+    "static/js/3.f25d4b9e.chunk.js.map": "/colors-generator-react-app/static/js/3.f25d4b9e.chunk.js.map",
+    "index.html": "/colors-generator-react-app/index.html",
+    "static/css/2.b1c92442.chunk.css.map": "/colors-generator-react-app/static/css/2.b1c92442.chunk.css.map",
+    "static/css/main.57569d07.chunk.css.map": "/colors-generator-react-app/static/css/main.57569d07.chunk.css.map",
+    "static/js/2.a8af1584.chunk.js.LICENSE.txt": "/colors-generator-react-app/static/js/2.a8af1584.chunk.js.LICENSE.txt",
+    "static/media/bg.eb21d0d0.svg": "/colors-generator-react-app/static/media/bg.eb21d0d0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ea5df34.js",
+    "static/css/2.b1c92442.chunk.css",
+    "static/js/2.a8af1584.chunk.js",
+    "static/css/main.57569d07.chunk.css",
+    "static/js/main.569add36.chunk.js"
+  ]
+}
